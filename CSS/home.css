@@ -1,7 +1,68 @@
-.jumbotron {
-  background-image: url("../Picture/jumbo1.jpg");
-background-size:cover;
-padding-bottom: 350px;
-  background-repeat: no-repeat;
-  min-height: 300px;
+
+
+#slider {
+    background: url('../Picture/code2.jpg') no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-attachment: scroll;
+        background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+    padding: 200px 0 280px 0;
+    position: relative;
+}
+#slider2 {
+    background: url('../Picture/code4.jpg') no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-attachment: scroll;
+        background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+padding: 200px 0 280px 0;
+    position: relative;
+}
+
+#slider3 {
+  background: url('../Picture/contact.jpg') no-repeat;
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-attachment: scroll;
+      background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% 0%;
+  padding: 200px 0 280px 0;
+  position: relative;
+}
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+.col-md-10 {
+    width: 83.33333333%;
+}
+#slider .block {
+    color: black;
+
+
+}
+#slider .block h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: 10px;
+    padding-bottom: 45px;
+}
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
