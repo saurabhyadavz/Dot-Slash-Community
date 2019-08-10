@@ -1,0 +1,7 @@
+.jumbotron {
+  background-image: url("../Picture/jumbo1.jpg");
+background-size:cover;
+padding-bottom: 350px;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
