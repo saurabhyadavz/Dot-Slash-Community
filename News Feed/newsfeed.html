@@ -11,9 +11,24 @@
     <link rel="stylesheet" type="text/css" href="newsfeed.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>News Feed</title>
-
+    <style>
+     #head{padding:10px; margin-bottom:8px;}
+     #code{margin:10px;}
+     #internship{margin:10px;}
+     #notices{margin:10px;}
+     #Notices{
+       width:34%;
+       float:left;
+     }
+    #Intern{
+      width:33%;
+      float:right
+    }
+      #Coding{float:left;
+        width:33%;}
+     </style>
   </head>
-  <body>
+  <body background="12.jpeg">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
  	 <a class="navbar-brand" href="home.html">./Community</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +37,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -31,7 +46,7 @@
       <li class="nav-item">
         <a class="nav-link" href="blog.html">Blog</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="blog.html">News Feeds</a>
       </li>
     </ul>
@@ -41,20 +56,65 @@
     </form>
   </div>
 </nav>
-<h2 align="center">News Feed</h2>
-    <button type="button" class="btn btn-outline-primary" id="code">Competitive Coding</button>
+<h2 align="center" id="head">News Feed</h2>
+    <center><button type="button" class="btn btn-outline-primary" id="code">Competitive Coding</button>
 <button type="button" class="btn btn-outline-secondary" id="notices">Notices</button>
-<button type="button" class="btn btn-outline-success" id="internship">Internships</button>
+<button type="button" class="btn btn-outline-success" id="internship">Internships</button></center>
+<div style="margin-top:10px">
 <div id="Coding">
+  <h3 align="center">Competitive Coding</h3>
+  <p style="padding:8px" >Coding Competitions</p>
   <ul>
     <li>
-     <h3>Codechef Contests</h3>
-     <p>August Long Challenge </p>
+     <a href="https://www.codechef.com/">Codechef Contests</a></li>
+      <!-- <ol>
+       <li>August Long Challenge</li>
+         <p>02 Aug 2019 15:00:00  12 Aug 2019 15:00:00 </p>
+       <li>August Cook Off 2019</li>
+         <p>18 Aug 2019 21:30:00  19 Aug 2019 00:00:00 </p>
+       <li>Just Coding Wildcard Round</li>
+         <p>15 Aug 2019 21:00:00  15 Aug 2019 23:00:00</p>
+       <li>DeCipher</li>
+         <p>17 Aug 2019 20:00:00  18 Aug 2019 08:00:00</p>
+       <li>August Lunchtime 2019</li>
+         <p>31 Aug 2019 19:30:00  31 Aug 2019 22:30:00</p>
+       <li>IEM AI Olympiad</li>
+         <p>07 Sep 2019 20:00:00  08 Sep 2019 08:00:00</p>
+       </ol> -->
+      <li>
+        <a href="https://codeforces.com/">Codeforces</a></li>
+        <!-- <ol>
+          <li>Codeforces Round #578 (Div. 2)</li>
+            <p>11 Aug 2019 18:05:00  11 Aug 2019 20:05:00</p>
+          <li>Codeforces Round #579 (Div. 3)</li>
+            <p>13 Aug 2019 20:05:00  13 Aug 2019 22:05:00</p>
+        </ol> -->
+       <li>
+         <a href="https://spoj.com/">SPOJ</a></li>
+      <li><a href="https://topcoder.com/">TopCoder</a></li>
+      <li><a href="https://atcoder.com/">AtCoder</a></li>
+      <li><a href="https://hackerearth.com/">Hacker Earth</a></li>
+      <li><a href="https://hackerrank.com/">Hacker Rank</a></li>
+    </ul>
+    <p style="padding:8px">For any queries or doubts refer to :</p>
+    <ul>
+    <li><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></li>
+    <li><a href="https://stackoverflow.com/">stackoverflow</a></li>
+    </ul>
+    <br/>
+    <p style="padding:8px">Reference e-Books:</p>
+    <ul>
+    <li><a href="book.pdf" download>Competitive Programming Handbook</a></li>
+    <li><a href="algo.pdf" download>Introduction to Algorithms</a></li>
+    <li>Data Structures</li>
   </ul>
 </div>
 <div id="Notices">
+  <h3 align="center">Notices</h3>
 </div>
 <div id="Intern">
+  <h3 align="center">Internships</h3>
+</div>
 </div>
   </body>
 </html>
