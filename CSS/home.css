@@ -35,7 +35,7 @@ padding: 200px 0 280px 0;
       background-position-x: 0%;
         background-position-y: 0%;
         background-attachment: scroll;
-       
+
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 0%;
@@ -83,4 +83,39 @@ padding-top: 100px;
     width: 40px;
     height: 8px;
     margin: 0 auto;
+}
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 2s steps(30, end);
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0 0 10px;
+    box-sizing: border-box;
+    padding-left: 360px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: black;
+    }
 }
