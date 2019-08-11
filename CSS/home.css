@@ -31,16 +31,16 @@ padding: 200px 0 280px 0;
 }
 
 #slider3 {
-  background: url('../Picture/adv.jpg') no-repeat;
+  background: url('../Picture/contact.jpg') no-repeat;
       background-position-x: 0%;
-      background-position-y: 0%;
-      background-attachment: scroll;
-      background-size: auto;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 10% 0%;
-  padding: 90px 0 280px 0;
-  position: relative;
+        background-position-y: 0%;
+        background-attachment: scroll;
+       
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 10% 0%;
+padding: 180px 0 280px 0;
+    position: relative;
 }
 
 .map{
@@ -75,4 +75,12 @@ padding-top: 100px;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.bg-primary {
+    background-color: #f032e6!important;
+}
+.line-title {
+    width: 40px;
+    height: 8px;
+    margin: 0 auto;
 }
