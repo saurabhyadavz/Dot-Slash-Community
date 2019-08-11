@@ -3,7 +3,7 @@
 #internship{margin:10px;}
 #notices{margin:10px;}
 #new {
-    background: url('./3.jpeg') no-repeat;
+    background: url('./8.jpeg') no-repeat;
         background-position-x: 0%;
         background-position-y: 0%;
         background-attachment: scroll;
@@ -28,7 +28,7 @@
     position: relative;
 }
 #notice {
-    background: url('./8.jpeg') no-repeat;
+    background: url('./7.jpg') no-repeat;
         background-position-x: 0%;
         background-position-y: 0%;
         background-attachment: scroll;
@@ -40,7 +40,7 @@
     position: relative;
 }
 #intern {
-    background: url('./7.jpeg') no-repeat;
+    background: url('./5.jpg') no-repeat;
         background-position-x: 0%;
         background-position-y: 0%;
         background-attachment: scroll;
@@ -64,9 +64,10 @@
   cursor: pointer;
   padding: 15px;
   border-radius: 10px;
-  font-size: 20px;
 }
 
 #myBtn:hover {
-  background-color: black;
+  border-radius: 10px;
+  border-color: grey;
+  background-color: white;
 }
