@@ -2,35 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
+=======
 
+>>>>>>> upstream/master
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/home.css">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Farro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Acme|Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="newsfeed.css" />
+    <script type="text/javascript" src="news.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>News Feed</title>
-    <style>
-     #head{padding:10px; margin-bottom:8px;}
-     #code{margin:10px;}
-     #internship{margin:10px;}
-     #notices{margin:10px;}
-     #Notices{
-       width:34%;
-       float:left;
-     }
-    #Intern{
-      width:33%;
-      float:right
-    }
-      #Coding{float:left;
-        width:33%;}
-     </style>
   </head>
-  <body background="12.jpeg">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
- 	 <a class="navbar-brand" href="home.html">./Community</a>
+<<<<<<< HEAD
+  <body >
+=======
+  <body background="news.jpg" style="background-size: cover;   background-attachment: scroll;">
+>>>>>>> upstream/master
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+ 	 <a class="navbar-brand" href="../home.html" style="font-family: 'Acme', sans-serif; font-size: 30px">./Community</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -38,83 +36,100 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="../home.html" style="font-family: 'Acme', sans-serif; font-size: 25px">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="practice.html">Practice</a>
+        <a class="nav-link" href="../Practice/practice.html" style="font-family: 'Acme', sans-serif; font-size: 25px">Practice</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="blog.html">Blog</a>
+        <a class="nav-link" href="#" style="font-family: 'Acme', sans-serif; font-size: 25px">Blog</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="blog.html">News Feeds</a>
+        <a class="nav-link" href="./News Feed/newsfeed.html" style="font-family: 'Acme', sans-serif; font-size: 25px">News Feed<span class="sr-only">(current)</span></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
-<h2 align="center" id="head">News Feed</h2>
-    <center><button type="button" class="btn btn-outline-primary" id="code">Competitive Coding</button>
-<button type="button" class="btn btn-outline-secondary" id="notices">Notices</button>
-<button type="button" class="btn btn-outline-success" id="internship">Internships</button></center>
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<section id="new">
+<h2 align="center" id="head" style="font-family: 'Acme', sans-serif; font-size: 90px; color: #494544 ;">News Feed</h2><br><br>
+    <center><button style="font-family: 'Acme', sans-serif; font-size:25px;" onclick="smoothScroll(document.getElementById('cc'))" type="button" class="btn btn-outline-primary" id="code">Competitive Coding</button>
+<button style="font-family: 'Acme', sans-serif; font-size:25px;" onclick="smoothScroll(document.getElementById('not'))" type="button" class="btn btn-outline-secondary" id="notices">Notices</button>
+<button style="font-family: 'Acme', sans-serif; font-size:25px;" onclick="smoothScroll(document.getElementById('int'))" type="button" class="btn btn-outline-success" id="internship">Internships</button></center>
 <div style="margin-top:10px">
+</section>
+<section id="coding">
 <div id="Coding">
-  <h3 align="center">Competitive Coding</h3>
-  <p style="padding:8px" >Coding Competitions</p>
+  <h3 align="center" style="font-family: 'Acme', sans-serif; font-size: 80px; color:white;"><a id="cc"></a>Competitive Coding</h3>
+  <br><br>
+  <div><p style="padding:8px ;font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Coding Competitions</p>
   <ul>
-    <li>
-     <a href="https://www.codechef.com/">Codechef Contests</a></li>
+    <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">
+     <a href="https://www.codechef.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Codechef Contests</a></li>
       <!-- <ol>
        <li>August Long Challenge</li>
          <p>02 Aug 2019 15:00:00  12 Aug 2019 15:00:00 </p>
        <li>August Cook Off 2019</li>
-         <p>18 Aug 2019 21:30:00  19 Aug 2019 00:00:00 </p>
+         <p>22 Aug 2019 21:30:00  19 Aug 2019 00:00:00 </p>
        <li>Just Coding Wildcard Round</li>
          <p>15 Aug 2019 21:00:00  15 Aug 2019 23:00:00</p>
        <li>DeCipher</li>
-         <p>17 Aug 2019 20:00:00  18 Aug 2019 08:00:00</p>
+         <p>17 Aug 2019 20:00:00  22 Aug 2019 08:00:00</p>
        <li>August Lunchtime 2019</li>
          <p>31 Aug 2019 19:30:00  31 Aug 2019 22:30:00</p>
        <li>IEM AI Olympiad</li>
          <p>07 Sep 2019 20:00:00  08 Sep 2019 08:00:00</p>
        </ol> -->
-      <li>
-        <a href="https://codeforces.com/">Codeforces</a></li>
+      <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">
+        <a href="https://codeforces.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Codeforces</a></li>
         <!-- <ol>
           <li>Codeforces Round #578 (Div. 2)</li>
-            <p>11 Aug 2019 18:05:00  11 Aug 2019 20:05:00</p>
+            <p>11 Aug 2019 22:05:00  11 Aug 2019 20:05:00</p>
           <li>Codeforces Round #579 (Div. 3)</li>
             <p>13 Aug 2019 20:05:00  13 Aug 2019 22:05:00</p>
         </ol> -->
+<<<<<<< HEAD
+       <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">
+         <a href="https://spoj.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">SPOJ</a></li>
+      <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"><a href="https://topcoder.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">TopCoder</a></li>
+      <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"><a href="https://atcoder.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">AtCoder</a></li>
+      <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"> <a href="https://hackerearth.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Hacker Earth</a></li>
+      <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"><a href="https://hackerrank.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Hacker Rank</a></li>
+=======
        <li>
          <a href="https://spoj.com/">SPOJ</a></li>
       <li><a href="https://topcoder.com/">TopCoder</a></li>
-      <li><a href="https://atcoder.com/">AtCoder</a></li>
+      <li><a href="https://atcoder.jp/">AtCoder</a></li>
       <li><a href="https://hackerearth.com/">Hacker Earth</a></li>
       <li><a href="https://hackerrank.com/">Hacker Rank</a></li>
+>>>>>>> upstream/master
     </ul>
-    <p style="padding:8px">For any queries or doubts refer to :</p>
+    <p style="padding:8px;font-family: 'Acme', sans-serif; font-size: 22px; color:white;">For any queries or doubts refer to :</p>
     <ul>
-    <li><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></li>
-    <li><a href="https://stackoverflow.com/">stackoverflow</a></li>
+    <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"><a href="https://www.geeksforgeeks.org/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">GeeksforGeeks</a></li>
+    <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"><a href="https://stackoverflow.com/" style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">stackoverflow</a></li>
     </ul>
     <br/>
-    <p style="padding:8px">Reference e-Books:</p>
+    <p style="padding:8px ; font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Reference e-Books:</p>
     <ul>
-    <li><a href="book.pdf" download>Competitive Programming Handbook</a></li>
-    <li><a href="algo.pdf" download>Introduction to Algorithms</a></li>
-    <li>Data Structures</li>
+    <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"><a href="book.pdf" download style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Competitive Programming Handbook</a></li>
+    <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"> <a href="algo.pdf" download style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Introduction to Algorithms</a></li>
+    <li style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;"><a href="daat.pdf" download style="font-family: 'Acme', sans-serif; font-size: 22px; color:white;">Data Structures</a></li>
   </ul>
 </div>
+</section>
+</div>
+<section id="notice">
 <div id="Notices">
-  <h3 align="center">Notices</h3>
+<a id="not"></a>  <h3 align="center">Notices</h3>
 </div>
+</section>
+<section id="intern">
 <div id="Intern">
-  <h3 align="center">Internships</h3>
+  <a id="int"></a><h3 align="center">Internships</h3>
 </div>
+</section>
 </div>
   </body>
 </html>
