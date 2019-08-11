@@ -1,5 +1,10 @@
-
-
+.contact{
+color: black;
+}
+.btn3:hover,.btn4:hover{
+  background-color:red;
+  color: white;
+}
 #slider {
     background: url('../Picture/code2.jpg') no-repeat;
         background-position-x: 0%;
@@ -26,7 +31,7 @@ padding: 200px 0 280px 0;
 }
 
 #slider3 {
-  background: url('../Picture/contact.jpg') no-repeat;
+  background: url('../Picture/adv.jpg') no-repeat;
       background-position-x: 0%;
       background-position-y: 0%;
       background-attachment: scroll;
@@ -34,8 +39,13 @@ padding: 200px 0 280px 0;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 90px 0 280px 0;
   position: relative;
+}
+
+.map{
+text-align:center;
+padding-top: 100px;
 }
 .col-md-offset-2 {
     margin-left: 16.66666667%;
