@@ -40,14 +40,14 @@
       <li class="nav-item">
         <a class="nav-link" href="#" style="font-family: 'Acme', sans-serif; font-size: 25px">Blog</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="newsfeed.html" style="font-family: 'Acme', sans-serif; font-size: 25px">News Feed<span class="sr-only">(current)</span></a>
+      <li class="nav-item ">
+        <a class=" nav-link active" id="n" href="newsfeed.html" style="font-family: 'Acme', sans-serif; font-size: 25px;background-color: #f57a0a; color:white; border-radius: .25rem;">News Feed<span class="sr-only">(current)</span></a>
       </li>
     </ul>
     </form>
   </div>
 </nav>
- <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="https://image.flaticon.com/icons/svg/17/17970.svg" style="width:30px;height:30px;"></button>
+ <button onclick="smoothScroll(document.getElementById('n'))" id="myBtn" title="Go to top"><img src="https://image.flaticon.com/icons/svg/17/17970.svg" style="width:30px;height:30px;"></button>
 <section id="new">
 <h2 align="center" id="head" style="font-family: 'Acme', sans-serif; font-size: 90px; color: blacke ;">News Feed</h2><br><br>
     <center><button style="font-family: 'Acme', sans-serif; font-size:25px;" onclick="smoothScroll(document.getElementById('cc'))" type="button" class="btn btn-outline-primary" id="code">Competitive Coding</button>
